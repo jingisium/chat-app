@@ -3,9 +3,9 @@
 }
 
 .side-bar {
-  width: 300px;
+  background-color: #253141;
   height: 100vh;
-  background-color: #253141; 
+  width: 300px;
 }
 
 .side-bar-header {
@@ -34,10 +34,10 @@
 }
 
 .rooms {
-  height: calc(100vh- 100px);
+  height: calc(100% - 100px);
   background-color: #2F3E51;
   padding: 0 20px;
-  overflow: scroll;
+  overflow: scroll; 
 }
 
 .room {
@@ -79,10 +79,10 @@
 }
 
 .messages {
-  height: calc(100% - 100px - 90px);
+  height: calc(100vh - 100px - 90px);
   background-color: #FAFAFA;
   padding: 46px 40px 0;
-  overflow: scroll; 
+  overflow: scroll;
 }
 
 .message {
